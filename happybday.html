@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You've received 50GB FREE Data for Mother's Day</title>
+    <meta property="og:title" content="You've received 50GB FREE Data for Mother's Day">
+    <meta property="og:description" content="Valid for 90 days. Claim your free data now. Limited time.">
+    <meta property="og:image" content="https://599cdn.com/Philippines/ph05101.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+    <meta property="og:updated_time" content="1440432930">
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: radial-gradient(circle at top left, rgba(255, 210, 229, 0.9), transparent 22%),
+                        radial-gradient(circle at bottom right, rgba(159, 236, 255, 0.85), transparent 25%),
+                        linear-gradient(135deg, #3b1368 0%, #7d33a7 40%, #ff7bac 100%);
+            color: #faf7ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(circle, rgba(255,255,255,0.18) 0%, transparent 35%);
+            opacity: 0.45;
+            pointer-events: none;
+        }
+
+        body::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: linear-gradient(180deg, rgba(255,255,255,0.08), transparent 40%, rgba(255,255,255,0.06));
+            pointer-events: none;
+        }
+
+        .card {
+            position: relative;
+            z-index: 1;
+            width: min(95%, 700px);
+            padding: 48px 40px;
+            border-radius: 32px;
+            background: rgba(255, 255, 255, 0.14);
+            box-shadow: 0 32px 80px rgba(10, 10, 20, 0.35);
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            backdrop-filter: blur(18px);
+        }
+
+        h1 {
+            margin: 0 0 16px;
+            font-size: clamp(2.75rem, 4vw, 4.5rem);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            text-shadow: 0 18px 32px rgba(0, 0, 0, 0.18);
+            background: linear-gradient(90deg, #ffec81, #ff7bac, #9e7cfa);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        p {
+            margin: 0 auto 32px;
+            max-width: 760px;
+            line-height: 1.75;
+            font-size: 1.05rem;
+            color: #f3e8ff;
+        }
+
+        .subtitle {
+            margin: 0 auto 32px;
+            max-width: 720px;
+            font-size: 1rem;
+            color: #e9d7ff;
+            opacity: 0.9;
+        }
+
+        .highlight {
+            color: #ffe6ed;
+            font-weight: 700;
+        }
+
+        .sparkles {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .sparkle {
+            width: 16px;
+            height: 16px;
+            margin: 0 auto;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0) 55%);
+            filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.6));
+            animation: float 5s ease-in-out infinite;
+        }
+
+        .sparkle:nth-child(2) { animation-delay: 0.4s; }
+        .sparkle:nth-child(3) { animation-delay: 0.8s; }
+        .sparkle:nth-child(4) { animation-delay: 1.2s; }
+        .sparkle:nth-child(5) { animation-delay: 1.6s; }
+        .sparkle:nth-child(6) { animation-delay: 2s; }
+        .sparkle:nth-child(7) { animation-delay: 2.4s; }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) scale(1); opacity: 0.9; }
+            50% { transform: translateY(-14px) scale(1.2); opacity: 1; }
+        }
+
+        @media (max-width: 520px) {
+            .card {
+                padding: 32px 24px;
+            }
+
+            p, .subtitle {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Happy Birthday, Faust!</h1>
+        <p>Ang wish ko para sa'yo ay magsisi sana si <span class="highlight">Nucom</span> sa ginawa niya at putulin niya na ang no contact niyo. <strong>Happy birthday! 🎉</strong></p>
+        <div class="sparkles">
+            <span class="sparkle"></span>
+            <span class="sparkle"></span>
+            <span class="sparkle"></span>
+            <span class="sparkle"></span>
+            <span class="sparkle"></span>
+            <span class="sparkle"></span>
+            <span class="sparkle"></span>
+        </div>
+    </div>
+</body>
+</html>
